@@ -1,0 +1,35 @@
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  width: 240px;
+  margin: auto;
+}
+
+.cell {
+  width: 70px;
+  height: 70px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+#status {
+  margin-top: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 10px;
+  font-size: 1em;
+  padding: 8px;
+  cursor: pointer;
+}
+
+body {
+  text-align: center;
+}
